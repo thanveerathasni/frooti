@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+
+.navbar{
+  
+    background-color: rgb(9, 9, 48);
+    height: 75px;
+ padding: 25px 27px;
+    color: #fff;
+    margin-left: 0;
+    position: fixed;
+    width: 100%;
+    
+
+    
+}
+.nav-logo{
+    display: flex;
+}
+
+.nav-logo img{
+  
+    width: 100%;
+  
+    margin-left: 10px;
+   
+    
+}
+
+
+.navbar-items .nav-opp{
+   
+    display: flex;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    margin-left: 250px;
+    font-weight: 400;
+    font-size: 15px;
+    gap: 30px;
+    
+  
+   
+}
+
+.nav-opp ul{
+  display: flex;
+   list-style: none;
+   gap: 7px;
+
+}
+.arrow span{
+    font-size: 10px;
+
+    
+    }
+.nav-opp ul:hover{
+    color: rgb(244, 31, 31);
+    cursor: pointer;
+    transition: all 2s;
+}
+           /* ........next session..... */
+    
+.background-img .img-alia{
+    
+    width: 100%;
+   
+}
+.row{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 0;
+   width: 100%;
+  
+ 
+   
+  
+}
+.row .column-1{
+    background-color: #ffa600
+}
+.left-image {
+    width: 20%;
+    display: block;
+   
+    height: 30px;   
+}
+   
+.yellow{
+    width: 110%;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 250px;
+    margin-top: 65px;
+   
+    
+}
+.main-text {
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-left: 10px;
+
+}
+.main-text h1{
+    font-family: "EksellDisplayWeb-Small";
+ 
+    margin: 2.1rem 0 1.68rem 0;
+  
+} 
+.right-side{
+    margin-top: 120px;
+    margin-left: 120px;
+    margin-right: 10px;
+    margin-bottom: 70px;
+}
+
+
+.para {
+
+    
+    font-family: Meriva, sans-serif;
+   
+}
+
+p{
+  font-size: 20px;
+  text-align: left;
+ 
+}
+.icon-first i{
+    font-size: x-large;
+    margin-top: 25px;
+    margin-right: 5px
+    
+
+    
+}
+.img-2{
+    width: 100%;
+}
+.last-part {
+   
+  color: rgb(33, 33, 33);
+  margin-top: 30px;
+  margin-left: 70px;
+  padding: 25px;
+  display: flex;
+    flex-direction:row;
+    margin-bottom: 30px;
+    justify-content: space-between;
+   
+} 
+  
+  /* last part */
+ footer{
+    width: 100%;
+    background: #fff;   
+  
+}
+
+.last-part p {
+    font-size: 13px;
+    font-family: "merivaregular";
+     
+ }
+ .def span{
+    font-weight: bold;
+ }
+ .khatham span{
+    font-weight: bold;
+ }
+.last-part span:hover{
+color: rgb(250, 54, 54);
+transition: 2.s;
+cursor: pointer;
+text-decoration: underline;
+}
+
+.foot-3 p{
+margin-right: 50px;
+
+ } 
+ .icon-footer i{
+  font-size:20px;
+  margin-top: 25px;
+  margin-right: 7px;
+  background: black;
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+ }
+ .icon-footer  i:hover{
+    background-color:  rgb(250, 54, 54);
+    transition: all 1s;
+    cursor: pointer;
+    
+
+
+ }
